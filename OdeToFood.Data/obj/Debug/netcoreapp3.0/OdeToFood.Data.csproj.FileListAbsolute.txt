@@ -1,0 +1,11 @@
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.deps.json
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.dll
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Data.pdb
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Core.dll
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\bin\Debug\netcoreapp3.0\OdeToFood.Core.pdb
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.csprojAssemblyReference.cache
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.AssemblyInfoInputs.cache
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.AssemblyInfo.cs
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.csproj.CopyComplete
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.dll
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp3.0\OdeToFood.Data.pdb

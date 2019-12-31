@@ -1,0 +1,8 @@
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.deps.json
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csprojAssemblyReference.cache
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfoInputs.cache
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfo.cs
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.pdb
