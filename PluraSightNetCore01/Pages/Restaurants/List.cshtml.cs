@@ -23,10 +23,10 @@ namespace PluraSightNetCore01.Pages.Restaurants
             this.config = configuration;
             this.restaurantData = restaurantData;
         }
-        public void OnGet()
+        public void OnGet(string searchterm)
         {
             Message = config["Message"];
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetRestaurantsByName(searchterm);
         }
     }
 }

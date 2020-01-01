@@ -7,7 +7,7 @@ namespace OdeToFood.Data
 {
     public interface IRestaurantData
     {
-        IEnumerable<Restaurant> GetAll();
+        IEnumerable<Restaurant> GetRestaurantsByName(string name);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -22,9 +22,9 @@ namespace OdeToFood.Data
                 new Restaurant() { Id = 2, Name = "Mexico", Location = "Mexico", Cuisine = CuisineType.Mexican }
             };
         }
-        public IEnumerable<Restaurant> GetAll()
+        public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
-            return Restaurants;
+            return name == null ? Restaurants : Restaurants.FindAll(x => x.Name.Contains(name));
         }
     }
 }
