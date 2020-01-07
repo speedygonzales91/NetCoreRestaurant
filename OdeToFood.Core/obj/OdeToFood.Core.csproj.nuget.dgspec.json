@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zsolt\\source\\repos\\PluraSightNetCore01\\OdeToFood.Core\\OdeToFood.Core.csproj": {}
+    "C:\\Users\\molnar.zsolt\\Projects\\NetCoreRestaurant\\OdeToFood.Core\\OdeToFood.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zsolt\\source\\repos\\PluraSightNetCore01\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+    "C:\\Users\\molnar.zsolt\\Projects\\NetCoreRestaurant\\OdeToFood.Core\\OdeToFood.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zsolt\\source\\repos\\PluraSightNetCore01\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectUniqueName": "C:\\Users\\molnar.zsolt\\Projects\\NetCoreRestaurant\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "projectName": "OdeToFood.Core",
-        "projectPath": "C:\\Users\\zsolt\\source\\repos\\PluraSightNetCore01\\OdeToFood.Core\\OdeToFood.Core.csproj",
-        "packagesPath": "C:\\Users\\zsolt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zsolt\\source\\repos\\PluraSightNetCore01\\OdeToFood.Core\\obj\\",
+        "projectPath": "C:\\Users\\molnar.zsolt\\Projects\\NetCoreRestaurant\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "packagesPath": "C:\\Users\\molnar.zsolt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\molnar.zsolt\\Projects\\NetCoreRestaurant\\OdeToFood.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zsolt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\molnar.zsolt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Szakik/_packaging/Szakik/nuget/v3/index.json": {}
+          "http://nuget.argonsoft.hu/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {

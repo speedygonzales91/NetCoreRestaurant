@@ -9,3 +9,14 @@ C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcore
 C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csproj.CopyComplete
 C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.dll
 C:\Users\zsolt\source\repos\PluraSightNetCore01\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.pdb
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.deps.json
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.dll
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.pdb
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csprojAssemblyReference.cache
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.AssemblyInfoInputs.cache
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.AssemblyInfo.cs
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.csproj.CopyComplete
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.dll
+C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.pdb

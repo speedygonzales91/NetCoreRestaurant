@@ -11,7 +11,7 @@
 <form method="get">
     <div class="form-group">
         <div class="input-group">
-            <input type="search" class="form-control" value="" name="searchterm"/>
+            <input type="search" class="form-control" asp-for="SearchTerm"/>
             <span class="input-group-btn">
                 <button class="btn btn-default">
                     <i class="glyphicon glyphicon-search"></i>
@@ -28,15 +28,29 @@
             <th scope="col">Name</th>
             <th scope="col">Location</th>
             <th scope="col">Cuisine</th>
+            <th scope="col">Details</th>
+            <th scope="col">Edit</th>
         </tr>
     </thead>
     @foreach (var restaurant in Model.Restaurants)
     {
-        <tr>
-            <th scope="row">@restaurant.Id</th>
-            <td>@restaurant.Name</td>
-            <td>@restaurant.Location</td>
-            <td>@restaurant.Cuisine</td>
-        </tr>
+<tr>
+    <th scope="row">@restaurant.Id</th>
+    <td>@restaurant.Name</td>
+    <td>@restaurant.Location</td>
+    <td>@restaurant.Cuisine</td>
+    <td>
+        <a asp-page="./Detail" asp-route-restaurantId="@restaurant.Id">
+            <i class="glyphicon glyphicon-zoom-in"></i>
+        </a>
+    </td>
+    <td>
+        <a asp-page="./Edit" asp-route-restaurantId="@restaurant.Id">
+            <i class="glyphicon glyphicon-edit"></i>
+        </a>
+    </td>
+</tr>
     }
 </table>
+
+<a asp-page="./Edit" class="btn btn-primary">Add new</a>

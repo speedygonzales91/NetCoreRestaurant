@@ -18,15 +18,18 @@ namespace PluraSightNetCore01.Pages.Restaurants
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
+        [BindProperty(SupportsGet =true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IConfiguration configuration, IRestaurantData restaurantData)
         {
             this.config = configuration;
             this.restaurantData = restaurantData;
         }
-        public void OnGet(string searchterm)
+        public void OnGet()
         {
             Message = config["Message"];
-            Restaurants = restaurantData.GetRestaurantsByName(searchterm);
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }
 }
