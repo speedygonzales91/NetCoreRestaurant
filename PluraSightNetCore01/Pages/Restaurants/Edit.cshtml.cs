@@ -61,13 +61,12 @@ namespace PluraSightNetCore01.Pages.Restaurants
             if (!ModelState.IsValid)
             {
                 Cuisines = HtmlHelper.GetEnumSelectList<CuisineType>();
-                return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
+                return Page();
             }
 
             if (Restaurant.Id > 0)
             {
                 Restaurant = RestaurantData.Update(Restaurant);
-                return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
             }
             else
             {
@@ -75,7 +74,7 @@ namespace PluraSightNetCore01.Pages.Restaurants
             }
             TempData["Message"] = "Restaurant Saved";
             RestaurantData.Commit();
-            return Page();
+            return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
         }
     }
 }

@@ -7,6 +7,8 @@ namespace PluraSightNetCore01.Pages.Restaurants
 {
     public class DetailModel : PageModel
     {
+        [TempData]
+        public string Message { get; set; }
         public Restaurant Restaurant { get; set; }
         public IRestaurantData RestaurantData { get; }
 
