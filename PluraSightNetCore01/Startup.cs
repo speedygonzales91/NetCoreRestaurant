@@ -31,7 +31,7 @@ namespace PluraSightNetCore01
                 options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodDb"));
             });
 
-            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+            services.AddScoped<IRestaurantData, SqlServerData>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {
