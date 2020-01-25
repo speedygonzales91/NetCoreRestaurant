@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using OdeToFood.Core;
 
@@ -15,32 +16,46 @@ namespace OdeToFood.Data
         }
         public Restaurant Add(Restaurant newRestaurant)
         {
-            throw new NotImplementedException();
+            db.Restaurants.Add(newRestaurant);
+            return newRestaurant;
         }
 
         public int Commit()
         {
-            throw new NotImplementedException();
+            return db.SaveChanges();
         }
 
         public Restaurant Delete(int id)
         {
-            throw new NotImplementedException();
+            var restaurantToDelete = GetRestaurantById(id);
+            if (restaurantToDelete !=null)
+            {
+                db.Restaurants.Remove(restaurantToDelete);
+            }
+            return restaurantToDelete;
         }
 
         public Restaurant GetRestaurantById(int id)
         {
-            throw new NotImplementedException();
+            return db.Restaurants.SingleOrDefault(x => x.Id == id);
         }
 
         public IEnumerable<Restaurant> GetRestaurantsByName(string name)
         {
-            throw new NotImplementedException();
+            var restaurants = from r in db.Restaurants
+                             where r.Name.Contains(name) || string.IsNullOrEmpty(name)
+                             orderby r.Name
+                             select r;
+
+            return restaurants;
         }
 
         public Restaurant Update(Restaurant updatedRestaurant)
         {
-            throw new NotImplementedException();
+            var entity = db.Restaurants.Attach(updatedRestaurant);
+            entity.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+
+            return updatedRestaurant;
         }
     }
 }
