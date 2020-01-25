@@ -9,6 +9,7 @@
       "OdeToFood.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.11",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.11",
           "OdeToFood.Core": "1.0.0"
         },
@@ -16,6 +17,7 @@
           "OdeToFood.Data.dll": {}
         }
       },
+      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.EntityFrameworkCore/2.1.11": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "2.1.11",
@@ -45,6 +47,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.1.11": {},
+      "Microsoft.EntityFrameworkCore.Design/2.1.11": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "2.1.11.0",
+            "fileVersion": "2.1.11.19108"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/2.1.11": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.11"
@@ -494,6 +508,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/2.1.11": {
       "type": "package",
       "serviceable": true,
@@ -514,6 +535,13 @@
       "sha512": "sha512-KEwH2xTiUsw85yy9a8hgD8dwcscygSNWr+SdL6H6i8nrkuvwDfO3m2IlE1grDIisvosn/8w0IPuNI/i1tjstCw==",
       "path": "microsoft.entityframeworkcore.analyzers/2.1.11",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.1.11.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/2.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mj7Wj+I/x0YQ4YJwN4Dws4LdWau0RPRQ7pHWvfoCLFOMVKPPEOq0Yx8LIl4RHJNZYLEevqDHLL+4q9tC/mKaMQ==",
+      "path": "microsoft.entityframeworkcore.design/2.1.11",
+      "hashPath": "microsoft.entityframeworkcore.design.2.1.11.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/2.1.11": {
       "type": "package",
