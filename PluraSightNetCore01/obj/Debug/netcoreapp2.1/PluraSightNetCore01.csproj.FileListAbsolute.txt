@@ -119,3 +119,10 @@ C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\o
 C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.csproj.CopyComplete
 C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.dll
 C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.pdb
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.csprojAssemblyReference.cache
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.RazorAssemblyInfo.cache
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.RazorAssemblyInfo.cs
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.AssemblyInfoInputs.cache
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.AssemblyInfo.cs
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.dll
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.pdb

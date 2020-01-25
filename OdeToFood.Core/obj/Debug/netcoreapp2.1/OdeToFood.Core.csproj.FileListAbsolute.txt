@@ -14,3 +14,11 @@ C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcor
 C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfo.cs
 C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.dll
 C:\Users\molnar.zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.deps.json
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.dll
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\bin\Debug\netcoreapp2.1\OdeToFood.Core.pdb
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.csprojAssemblyReference.cache
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfoInputs.cache
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.AssemblyInfo.cs
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.dll
+D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Core\obj\Debug\netcoreapp2.1\OdeToFood.Core.pdb
