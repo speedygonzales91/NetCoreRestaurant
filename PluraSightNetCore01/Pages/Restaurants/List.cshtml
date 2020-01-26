@@ -11,7 +11,7 @@
 <form method="get">
     <div class="form-group">
         <div class="input-group">
-            <input type="search" class="form-control" asp-for="SearchTerm"/>
+            <input type="search" class="form-control" asp-for="SearchTerm" />
             <span class="input-group-btn">
                 <button class="btn btn-default">
                     <i class="glyphicon glyphicon-search"></i>
@@ -21,40 +21,61 @@
     </div>
 </form>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Location</th>
-            <th scope="col">Cuisine</th>
-            <th scope="col">Details</th>
-            <th scope="col">Edit</th>
-        </tr>
-    </thead>
+@*<table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Location</th>
+                <th scope="col">Cuisine</th>
+                <th scope="col">Details</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        @foreach (var restaurant in Model.Restaurants)
+        {
+    <tr>
+        <th scope="row">@restaurant.Id</th>
+        <td>@restaurant.Name</td>
+        <td>@restaurant.Location</td>
+        <td>@restaurant.Cuisine</td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="./Detail"
+               asp-route-restaurantId="@restaurant.Id">
+                <i class="glyphicon glyphicon-zoom-in"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="./Edit"
+               asp-route-restaurantId="@restaurant.Id">
+                <i class="glyphicon glyphicon-edit"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="./Delete"
+               asp-route-restaurantId="@restaurant.Id">
+                <i class="glyphicon glyphicon-trash"></i>
+            </a>
+        </td>
+    </tr>
+        }
+    </table>*@
+
+@if (Model.Restaurants != null)
+{
     @foreach (var restaurant in Model.Restaurants)
     {
-<tr>
-    <th scope="row">@restaurant.Id</th>
-    <td>@restaurant.Name</td>
-    <td>@restaurant.Location</td>
-    <td>@restaurant.Cuisine</td>
-    <td>
-        <a asp-page="./Detail" asp-route-restaurantId="@restaurant.Id">
-            <i class="glyphicon glyphicon-zoom-in"></i>
-        </a>
-    </td>
-    <td>
-        <a asp-page="./Edit" asp-route-restaurantId="@restaurant.Id">
-            <i class="glyphicon glyphicon-edit"></i>
-        </a>
-    </td>
-</tr>
+        <partial name="_Summary" for="@restaurant" />
     }
-</table>
+}
+
 
 <a asp-page="./Edit" class="btn btn-primary">Add new</a>
 
 @section footer {
-<p>Hello footer section</p>
+    <p>Hello footer section</p>
 }

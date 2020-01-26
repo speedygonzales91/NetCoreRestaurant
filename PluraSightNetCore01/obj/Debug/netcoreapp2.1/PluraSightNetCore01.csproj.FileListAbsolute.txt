@@ -161,3 +161,6 @@ D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\
 D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.RazorTargetAssemblyInfo.cs
 D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.Views.pdb
 D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\PluraSightNetCore01.csproj.CopyComplete
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs

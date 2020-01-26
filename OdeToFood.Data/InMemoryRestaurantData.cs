@@ -35,6 +35,11 @@ namespace OdeToFood.Data
             throw new NotImplementedException();
         }
 
+        public int GetCountOfRestaurants()
+        {
+            return Restaurants.Count;
+        }
+
         public Restaurant GetRestaurantById(int id)
         {
             return Restaurants.SingleOrDefault(r => r.Id == id);

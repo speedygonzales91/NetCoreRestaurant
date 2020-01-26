@@ -35,6 +35,11 @@ namespace OdeToFood.Data
             return restaurantToDelete;
         }
 
+        public int GetCountOfRestaurants()
+        {
+            return db.Restaurants.Count();
+        }
+
         public Restaurant GetRestaurantById(int id)
         {
             return db.Restaurants.SingleOrDefault(x => x.Id == id);
