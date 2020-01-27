@@ -1,0 +1,21 @@
+﻿@page
+@model PluraSightNetCore01.Pages.ClientRestaurantModel
+@{
+
+}
+
+<h2>Client Restaurants</h2>
+
+@section Scripts {
+<script>
+    $(function() 
+    {
+$.ajax("/api/restaurants/",
+    {method: "GET"})
+.then(function(response) {
+console.dir(response)
+})
+})
+</script>
+
+}
