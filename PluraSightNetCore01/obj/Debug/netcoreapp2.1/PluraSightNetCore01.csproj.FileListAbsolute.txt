@@ -165,3 +165,7 @@ D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\
 D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
 D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
 D:\Zsolt\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\ClientRestaurant.cshtml.g.cs
+C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\ClientRestaurant.g.cshtml.cs
+C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\Delete.g.cshtml.cs
+C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Restaurants\_Summary.g.cshtml.cs
+C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\PluraSightNetCore01\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\Components\RestaurantCount\Default.g.cshtml.cs
