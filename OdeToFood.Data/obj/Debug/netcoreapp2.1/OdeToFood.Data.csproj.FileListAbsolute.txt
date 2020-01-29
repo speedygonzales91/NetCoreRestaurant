@@ -45,3 +45,5 @@ D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeTo
 D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\obj\Debug\netcoreapp2.1\OdeToFood.Data.pdb
 D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.runtimeconfig.json
 D:\Zsolt\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.runtimeconfig.dev.json
+C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.runtimeconfig.json
+C:\Users\molnar.zsolt\ArgonSoft\Projects\NetCoreRestaurant\OdeToFood.Data\bin\Debug\netcoreapp2.1\OdeToFood.Data.runtimeconfig.dev.json
